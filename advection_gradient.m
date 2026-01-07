@@ -16,7 +16,6 @@ function adv = advection_gradient(lat, lon, T, u, v)
 %
 % Formula: adv = -u*dT/dx - v*dT/dy
 %
-% Author: Based on user's original code
 % Reference: Marin et al. (2022) Front. Clim. 4:788390
 
     % Create meshgrid if input is vectors
